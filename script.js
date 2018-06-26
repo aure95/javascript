@@ -154,8 +154,22 @@ function exo10()
 	alert(res)
 }
 
+function exo11()
+{
+	const TVA=0.2;
+	var res;
+	var prix=parseInt(prompt("entrer prix produits"));
 
-exo10();
+	res=prix+(prix*TVA);
+
+	alert("prix HT : "+prix.toString()+" \n"+"Prix TTC : "+res.toString())
+}
+console.log("yhgfvdfjkg");
+
+function todo
+
+//exo11();
+
 /*
 exo1();
 exo2();
@@ -166,6 +180,7 @@ exo6();
 exo7();
 exo8();
 exo9();
+exo10();
 
 
 */
