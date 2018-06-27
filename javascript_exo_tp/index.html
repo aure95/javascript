@@ -2,30 +2,36 @@
 <html>
 <head>
 	<title>Todo</title>
+
 	
 </head>
 <body>
+
 	<h1>Todo</h1>
 	<br>
+	<h2 id=etat> </h2>
 <span id=click1>ajouter</span>
 
-<input type="text" name=data></input>
+<input id="textAjout" type="text" name=data></input>
 <input id="button1" type="button" name="button1" value="ADD" onclick="ajouter()"></input>
 	</br>
 	<br>
 
 <span id=click2>supprimer</span>
+<input id="button_supprimer" type="button" name="button1" value="SUPPRIMER" onclick="supprimer()"/>
 
 	</br>
 	<br>
 
 <span id=click3>modifier</span>
+<input id="button_modifier" type="button" name="button1" value="MODIFIER" onclick="modifier()" />
 
 	</br>
 
 	<div id=affichage>
          
 	</div>
-	<script type="text/javascript" src="script.js"> </script>
+	
 </body>
+		<script type="text/javascript" src="script.js"> </script>
 </html>
